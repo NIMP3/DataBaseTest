@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		75DA47BF5D8ADC61F7BA1094 /* Pods_DataBaseTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB9D8D0724823040D174468 /* Pods_DataBaseTest.framework */; };
+		B1B9FABB2600F4090053CA79 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B9FABA2600F4090053CA79 /* CoreDataViewController.swift */; };
+		B1B9FABF2600FC830053CA79 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1B9FABD2600FC830053CA79 /* CoreData.xcdatamodeld */; };
 		B1E0C22125FC03E3009D8F24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E0C22025FC03E3009D8F24 /* AppDelegate.swift */; };
 		B1E0C22525FC03E3009D8F24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E0C22425FC03E3009D8F24 /* ViewController.swift */; };
 		B1E0C22825FC03E3009D8F24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E0C22625FC03E3009D8F24 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 		269F211E965462F0EDE3681E /* Pods-DataBaseTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBaseTest.release.xcconfig"; path = "Target Support Files/Pods-DataBaseTest/Pods-DataBaseTest.release.xcconfig"; sourceTree = "<group>"; };
 		6481DB3C03E62AADCB1D2DF8 /* Pods-DataBaseTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBaseTest.debug.xcconfig"; path = "Target Support Files/Pods-DataBaseTest/Pods-DataBaseTest.debug.xcconfig"; sourceTree = "<group>"; };
 		7AB9D8D0724823040D174468 /* Pods_DataBaseTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataBaseTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B9FABA2600F4090053CA79 /* CoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
+		B1B9FABE2600FC830053CA79 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 		B1E0C21D25FC03E3009D8F24 /* DataBaseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataBaseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E0C22025FC03E3009D8F24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1E0C22425FC03E3009D8F24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +57,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		B1B9FAB82600F3CE0053CA79 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B1B9FABA2600F4090053CA79 /* CoreDataViewController.swift */,
+				B1B9FABD2600FC830053CA79 /* CoreData.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		B1E0C21425FC03E3009D8F24 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +87,7 @@
 		B1E0C21F25FC03E3009D8F24 /* DataBaseTest */ = {
 			isa = PBXGroup;
 			children = (
+				B1B9FAB82600F3CE0053CA79 /* CoreData */,
 				B1E0C24225FC0F07009D8F24 /* Realm */,
 				B1E0C22025FC03E3009D8F24 /* AppDelegate.swift */,
 				B1E0C22425FC03E3009D8F24 /* ViewController.swift */,
@@ -218,7 +232,9 @@
 			files = (
 				B1E0C22525FC03E3009D8F24 /* ViewController.swift in Sources */,
 				B1E0C22125FC03E3009D8F24 /* AppDelegate.swift in Sources */,
+				B1B9FABF2600FC830053CA79 /* CoreData.xcdatamodeld in Sources */,
 				B1E0C24525FC0F30009D8F24 /* User.swift in Sources */,
+				B1B9FABB2600F4090053CA79 /* CoreDataViewController.swift in Sources */,
 				B1E0C24825FC0FE3009D8F24 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +441,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B1B9FABD2600FC830053CA79 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B1B9FABE2600FC830053CA79 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = B1B9FABE2600FC830053CA79 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B1E0C21525FC03E3009D8F24 /* Project object */;
 }
