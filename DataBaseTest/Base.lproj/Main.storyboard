@@ -13,7 +13,7 @@
         <!--Realm-->
         <scene sceneID="ePh-IF-xfB">
             <objects>
-                <viewController id="Tbs-pK-SJ4" sceneMemberID="viewController">
+                <viewController id="Tbs-pK-SJ4" customClass="RealmViewController" customModule="DataBaseTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZeE-RD-1V6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -97,6 +97,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="9KR-aG-d3R" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wAR-2n-TSz">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
